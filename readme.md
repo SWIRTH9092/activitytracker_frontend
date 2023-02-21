@@ -1,5 +1,9 @@
 ### Project 4 - Activity Tracker
 
+#### Description
+
+The purpose of this app is to be able to enter an activity that you do on a regular basis and to keep track of how often you do the activity along with a count feature which allows you to keep a talley of how much you do.
+
 #### Front End
 - Live Site Link: https://sw-activitytracker-frend.onrender.com
 - Github Link:  https://github.com/SWIRTH9092/activitytracker_frontend
@@ -21,8 +25,23 @@
 - React Router Dom
 - Milligram
 
-##### Component Tree
 
+#### routes
+
+Activity Routes
+- show - ""    
+- create - createact/
+- update - updateact/:id
+- delete - deleteact/:id
+
+Activity Tracker Routes
+- show   - "acttrk"    
+- create - createacttrk/
+- update - updateacttrk/:id
+- delete - deleteacttrk/:id
+
+##### Component Tree
+<img src="https://i.imgur.com/Rthjvri.jpg" alt="Front-end Component Tree" title="Component Tree" width="90%"/>
 
 #### Component List
 
